@@ -1,21 +1,71 @@
+/* Page background */
 body {
-   
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, grey, black);
     margin: 0;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;   /* horizontal center */
-  align-items: center;  
-   background: #ccc;   
+    padding: 20px;
 }
 
+/* Resume container */
 .resume-page {
-  width: 8.5in;
-  min-height: 11in;
-  background: white;
-  padding: 0.75in;
-  box-sizing: border-box;
-  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    max-width: 800px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
- div {
-    margin-left: 10px
- }
+
+/* Title */
+.title {
+    text-align: center;
+    color: #2d3436;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+
+/* Section headers */
+h3, h4 {
+    color: #0984e3;
+    margin-top: 20px;
+}
+
+/* Text */
+p, li {
+    color: #2d3436;
+    line-height: 1.6;
+}
+
+/* List styling */
+ul {
+    padding-left: 25px;
+}
+
+/* Hover effect on list items */
+ul li:hover {
+    background-color: #dfe6e9;
+    border-left: 5px solid #6c5ce7;
+    padding-left: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for section headers */
+h3:hover, h4:hover {
+    color: #6c5ce7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Divider */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #dfe6e9;
+    margin: 25px 0;
+}
+p {
+  font-style: italic;
+}
